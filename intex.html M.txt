@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Mahenthiran S</title>
+
+  <style>
+    @page {
+      size: A4;
+      margin: 14mm;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #eef2f6;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #202b3a;
+      line-height: 1.45;
+    }
+
+    .resume {
+      max-width: 850px;
+      margin: 24px auto;
+      padding: 38px 44px;
+      background: white;
+      box-shadow: 0 4px 22px #00000012;
+    }
+
+    header {
+      border-bottom: 3px solid #1e5675;
+      padding-bottom: 18px;
+      margin-bottom: 22px;
+    }
+
+    h1 {
+      margin: 0 0 6px;
+      color: #173f58;
+      font-size: 30px;
+    }
+
+    h2 {
+      font-size: 15px;
+      color: #1e5675;
+      text-transform: uppercase;
+      border-bottom: 1px solid #cbd7df;
+      padding-bottom: 5px;
+      margin-bottom: 9px;
+    }
+
+    section {
+      margin-bottom: 19px;
+    }
+
+    p, li {
+      font-size: 13px;
+    }
+
+    .role {
+      font-weight: bold;
+      color: #456579;
+    }
+
+    .contact {
+      font-size: 12.5px;
+      color: #435466;
+    }
+
+    .job {
+      margin-bottom: 15px;
+    }
+
+    .job-title {
+      font-weight: bold;
+      font-size: 13.5px;
+      color: #253b4a;
+    }
+
+    .job-meta {
+      font-size: 12px;
+      color: #647887;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+
+    .skills span {
+      background: #edf4f7;
+      border: 1px solid #d7e4ea;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+    }
+
+    .details {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px 22px;
+      font-size: 12.5px;
+    }
+
+    @media print {
+      body {
+        background: white;
+      }
+
+      .resume {
+        margin: 0 auto;
+        padding: 0;
+        box-shadow: none;
+        max-width: none;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .resume {
+        margin: 0;
+        padding: 24px 20px;
+      }
+
+      .details {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="resume">
+
+    <header>
+      <h1>MAHENTHIRAN S</h1>
+      <p class="role">
+        Diploma in Electrical and Electronics Engineering
+      </p>
+
+      <div class="contact">
+        Gobichettipalayam, Erode, Tamil Nadu – 638454<br>
+        Mobile: +91 84384 89449<br>
+        Email: mahi24msd7@gmail.com
+      </div>
+    </header>
+
+    <section>
+      <h2>Career Objective</h2>
+      <p>
+        To obtain a suitable role in manufacturing, machine operations,
+        or production planning where I can apply my hands-on machine
+        experience, Excel skills, willingness to learn, and commitment
+        to safe and efficient work.
+      </p>
+    </section>
+
+    <section>
+      <h2>Work Experience</h2>
+
+      <div class="job">
+        <div class="job-title">
+          Paper Machine Assistant Operator
+        </div>
+        <div class="job-meta">Duration: 1 year</div>
+        <ul>
+          <li>Supported daily paper machine operations and production activities.</li>
+          <li>Assisted the operator with machine monitoring and routine checks.</li>
+          <li>Followed workplace safety instructions and production procedures.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-title">
+          Planning Team – KM Knitwear Company
+        </div>
+        <div class="job-meta">Duration: 4 months</div>
+        <ul>
+          <li>Worked with Excel sheets for planning-team records and updates.</li>
+          <li>Entered and organised information in spreadsheets.</li>
+          <li>Assisted with routine planning documentation and data updates.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-title">
+          LMW Unit 2 – QA and CMM Inspection
+        </div>
+        <div class="job-meta">Duration: 1 year</div>
+        <ul>
+          <li>Performed CMM inspection-related work and supported quality checks.</li>
+          <li>Assisted with checking casting/unloading pieces and machine inspections.</li>
+          <li>Participated in 5S audits in the machine shop and CMM room.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p>
+        <strong>Diploma in Electrical and Electronics Engineering (EEE)</strong>
+      </p>
+      <p>Konghu Vellar Polytechnic College, Perundurai — 80%</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>Paper Machine Operations</span>
+        <span>Production Support</span>
+        <span>Microsoft Excel</span>
+        <span>Spreadsheet Data Entry</span>
+        <span>CMM Inspection</span>
+        <span>Quality Checking</span>
+        <span>5S Audit</span>
+        <span>Machine Inspection</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Personal Strengths</h2>
+      <ul>
+        <li>Willingness to learn new skills</li>
+        <li>Analytical and problem-solving ability</li>
+        <li>Responsible and sincere at work</li>
+        <li>Able to work with a team and manage assigned tasks</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Personal Details</h2>
+      <div class="details">
+        <div><strong>Date of Birth:</strong> 09 June 2005</div>
+        <div><strong>Gender:</strong> Male</div>
+        <div><strong>Marital Status:</strong> Unmarried</div>
+        <div><strong>Nationality:</strong> Indian</div>
+        <div><strong>Languages:</strong> Tamil, English</div>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
